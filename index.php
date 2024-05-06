@@ -1,8 +1,7 @@
-//".$_SERVER['DOCUMENT_ROOT']. " 
 <?php
 session_start();
 if (!isset($_SESSION["user_logged_in"]) || $_SESSION["user_logged_in"] !== true) {
-    header("Location: https://www.plata.ie/plataforma/index.php");
+    header("Location: ".$_SERVER['HTTPS']. "/plataforma/index.php");
 
     exit();
 }
