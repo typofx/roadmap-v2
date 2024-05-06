@@ -1,7 +1,7 @@
 <?php
 session_start();
 if (!isset($_SESSION["user_logged_in"]) || $_SESSION["user_logged_in"] !== true) {
-    header("Location: ".$_SERVER['HTTPS']. "/plataforma/index.php");
+    header("Location: ".$_SERVER['SERVER_ADDR']. "/plataforma/index.php");
 
     exit();
 }
