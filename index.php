@@ -13,7 +13,7 @@ if ($conn->connect_error) {
     die("Conexão falhou: " . $conn->connect_error);
 }
 
-// Query para selecionar os dados da tabela em inglês
+// Query para selecionar os dados da tabela em inglêsdddd
 $sql_en = "SELECT * FROM granna80_bdlinks.roadmap_en";
 $result_en = $conn->query($sql_en);
 
