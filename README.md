@@ -1,3 +1,3 @@
 What can we improve?
 
-- Add a link on each task
+- Add a link to each task listed
